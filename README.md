@@ -1,5 +1,6 @@
 # Kanban App Using React
 
+See [here](https://avewells.github.io/kanban-app/) for the finished app.
 See [SurviveJS - React](http://survivejs.com/react/introduction/) for the book.
 
 ## Getting Started
