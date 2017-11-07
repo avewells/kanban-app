@@ -1,4 +1,4 @@
-# react-boilerplate - Boilerplate for "SurviveJS - React"
+# Kanban App Using React
 
 See [SurviveJS - React](http://survivejs.com/react/introduction/) for the book.
 
