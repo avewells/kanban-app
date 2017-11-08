@@ -3,6 +3,8 @@
 See [here](https://avewells.github.io/kanban-app/) for the finished app.
 See [SurviveJS - React](http://survivejs.com/react/introduction/) for the book.
 
+ToDo: Fix dragging on mobile.
+
 ## Getting Started
 
 1. `npm i` - Install dependencies. This might take a while.
