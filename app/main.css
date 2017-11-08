@@ -4,10 +4,61 @@ body {
   background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
 }
 
-.add-note {
+/*.add-note {
   background-color: #fdfdfd;
   border: 1px solid #cccccc;
   margin: 1em;
+}*/
+
+.lane {
+  display: inline-block;
+  margin: 1em;
+  background-color: #efefef;
+  border: 1px solid #cccccc;
+  min-width: 12em;
+  vertical-align: top;
+}
+
+.lane-header {
+  overflow: auto;
+  padding: 1em;
+  color: #000000;
+  background-color: #fdfdfd;
+}
+
+.lane-name {
+  float: left;
+}
+
+.lane-add-note {
+  float: left;
+  margin-right: 0.5em;
+}
+
+.lane-delete, .lane-edit {
+  float: right;
+}
+
+.lane-edit {
+  margin-left: 0.5em;
+}
+
+.add-lane, .lane-add-note button {
+  cursor: pointer;
+  background-color: #fdfdfd;
+  border: 1px solid #cccccc;
+}
+
+.add-lane {
+  margin: 1em;
+}
+
+.lane-delete button, .lane-edit button {
+  padding: 0;
+  cursor: pointer;
+  color: #cccccc;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
 }
 
 .notes {
@@ -44,10 +95,11 @@ body {
   background-color: #fdfdfd;
   border: none;
   cursor: pointer;
+  color: #cccccc;
 }
 
 .edit {
   max-width: 10em;
-  width: 90%;
+  width: 80%;
 }
 
